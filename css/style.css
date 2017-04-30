@@ -81,6 +81,11 @@ footer{
   float: right;
 }
 
+.name {
+  color: #F15B31;
+  font-weight: 700;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -88,4 +93,12 @@ footer{
   clear: both;
   height: 0;
   font-size: 0;
+}
+
+a {
+  border-bottom: 2px solid transparent;
+}
+
+a:hover {
+  border-color: white;
 }
